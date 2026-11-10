@@ -1,0 +1,8 @@
+# Recommended small-circuit starting configuration. Angle encoding is selected
+# for end-to-end Q/K projection gradients through PennyLane.
+encoding: angle
+ansatz: hardware_efficient
+n_qubits: 2
+depth: 1
+entangler: cz
+simulator: default.qubit

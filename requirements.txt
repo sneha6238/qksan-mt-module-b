@@ -1,0 +1,4 @@
+pennylane>=0.40,<0.44
+torch>=2.2
+numpy>=1.26
+pytest>=8.0

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qksan-mt-module-b"
+version = "0.1.0"
+description = "Quantum Kernel Self-Attention module for Transformer-based MT"
+requires-python = ">=3.10"
+dependencies = [
+  "pennylane>=0.40,<0.44",
+  "torch>=2.2",
+  "numpy>=1.26",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
