@@ -1,0 +1,7 @@
+torch
+datasets
+sentencepiece
+sacrebleu
+numpy
+pytest
+unbabel-comet   # optional, only for COMET
